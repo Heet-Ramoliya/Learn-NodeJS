@@ -16,6 +16,7 @@ app.use("/api/users", require("./routes/userRoutes"));
 
 app.use(errorHandler);
 
+//port
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
